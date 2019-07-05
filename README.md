@@ -129,6 +129,9 @@ Task Zip官方讲解：https://docs.gradle.org/current/dsl/org.gradle.api.tasks.
 |group|setGroup(String group) 将当前的Task设置到指定组。|
 |description|setDescription(@Nullable String description) Task描述。|
 |baseName|压缩后的aar文件名。|
+|extension|压缩后的文件扩展名。|
 |from(sourcePaths)    |需要压缩的目录。|
 |destinationDir|压缩后存放的目录。|
+
+*当前项目fork于https://github.com/Siy-Wu/ExcludeAar，非常感谢Siy-Wu。*
 
