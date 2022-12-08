@@ -5,7 +5,8 @@ configurations {
 //需要排除的包名
 //def excludePackages = ['com.tencent', 'MTT']
 //def excludePackages = ['org.slf4j.impl']
-def excludePackages = ['com.google.common.collect']
+//def excludePackages = ['com.google.common.collect']
+def excludePackages = ['com.google.common']
 //需要排除的类(需要全类名)
 def excludeClasses = ['org.slf4j.impl.StaticLoggerBinder','org.apache.commons.lang3.StringUtils']
 
